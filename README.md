@@ -7,7 +7,7 @@
 dotnet new --install ${path}
 `
 
-where ${path} is the **full** path to the clonned directory (where the folder .template.config placed) **without trailing slash** (e.g. `D:\Root\Service.Template\template`)
+where ${path} is the **full** path to the clonned directory (where the folder .template.config placed) **without trailing slash** (e.g. `D:\Root\MarketingBox-Template\template`)
 
 ### Create
 
