@@ -3,7 +3,7 @@
   "classifications": [ "MyJetService" ],
   "name": "MyJetService",
   "identity": "MyJetService",
-  "shortName": "myjetservice",
+  "shortName": "marketingbox",
   "preferNameDirectory": "true",
   "tags": {
     "language": "C#"
