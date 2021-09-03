@@ -5,11 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference PrivateAssets="All" Include="..\Service.AssetsDictionary.Domain.Models\Service.AssetsDictionary.Domain.Models.csproj" />
-    <ProjectReference PrivateAssets="All" Include="..\Service.AssetsDictionary.Grpc\Service.AssetsDictionary.Grpc.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Autofac" Version="6.2.0" />
     <PackageReference Include="Grpc.Core.Api" Version="2.38.0" />
     <PackageReference Include="JetBrains.Annotations" Version="2021.1.0" />
@@ -20,16 +15,20 @@
     <PackageReference Include="protobuf-net.Grpc" Version="1.0.152" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MarketingBox.Template.Grpc\MarketingBox.Template.Grpc.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetsForTfmSpecificBuildOutput>
       $(TargetsForTfmSpecificBuildOutput);PackReferencedProjectOutputs
     </TargetsForTfmSpecificBuildOutput>
-    <PackageId>MarketingBox.Service.AssetsDictionary.Client</PackageId>
+    <PackageId>MarketingBox.Template.Client</PackageId>
     <Authors>MyJetWallet</Authors>
     <Company>MyJetWallet</Company>
-    <Product>MyJetWallet</Product>
-    <PackageProjectUrl>https://github.com/MyJetWallet/Service.AssetsDictionary</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/MyJetWallet/Service.AssetsDictionary</RepositoryUrl>
+    <Product>MarketingBox</Product>
+    <PackageProjectUrl>https://github.com/MyJetWallet/MarketingBox.Template</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MyJetWallet/MarketingBox.Template</RepositoryUrl>
   </PropertyGroup>
 
   <Target Name="PackReferencedProjectOutputs" DependsOnTargets="BuildOnlySettings;ResolveReferences">

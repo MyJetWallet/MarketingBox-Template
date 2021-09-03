@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Service.AssetsDictionary.Domain.Models\Service.AssetsDictionary.Domain.Models.csproj" />
+    <ProjectReference Include="..\MarketingBox.Template.Domain.Models\MarketingBox.Template.Domain.Models.csproj" />
   </ItemGroup>
 
 </Project>

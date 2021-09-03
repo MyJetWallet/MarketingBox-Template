@@ -1,6 +1,6 @@
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 
-namespace Service.AssetsDictionary.Grpc.Models
+namespace MarketingBox.Template.Grpc.Models
 {
     [DataContract]
     public class HelloRequest

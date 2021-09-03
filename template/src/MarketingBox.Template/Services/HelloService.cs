@@ -1,11 +1,9 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using MarketingBox.Template.Grpc;
+using MarketingBox.Template.Grpc.Models;
 using Microsoft.Extensions.Logging;
-using Service.AssetsDictionary.Grpc;
-using Service.AssetsDictionary.Grpc.Models;
-using Service.AssetsDictionary.Settings;
 
-namespace Service.AssetsDictionary.Services
+namespace MarketingBox.Template.Services
 {
     public class HelloService: IHelloService
     {

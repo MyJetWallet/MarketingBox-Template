@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Logging;
 using MyJetWallet.Sdk.Service;
 
-namespace Service.AssetsDictionary
+namespace MarketingBox.Template
 {
     public class ApplicationLifetimeManager : ApplicationLifetimeManagerBase
     {

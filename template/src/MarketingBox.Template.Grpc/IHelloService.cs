@@ -1,8 +1,8 @@
-using System.ServiceModel;
+﻿using System.ServiceModel;
 using System.Threading.Tasks;
-using Service.AssetsDictionary.Grpc.Models;
+using MarketingBox.Template.Grpc.Models;
 
-namespace Service.AssetsDictionary.Grpc
+namespace MarketingBox.Template.Grpc
 {
     [ServiceContract]
     public interface IHelloService

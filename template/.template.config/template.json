@@ -1,21 +1,21 @@
 {
   "author": "MyJetWallet",
-  "classifications": [ "MyJetService" ],
-  "name": "MyJetService",
-  "identity": "MyJetService",
+  "classifications": [ "MarketingBox" ],
+  "name": "MarketingBox.Template",
+  "identity": "MarketingBox.Template",
   "shortName": "marketingbox",
   "preferNameDirectory": "true",
   "tags": {
     "language": "C#"
   },
-  "sourceName": "AssetsDictionary",
+  "sourceName": "Template",
   "symbols": {
     "clientSecretsId": {
       "type": "generated",
       "generator": "guid",
       "replaces": "user-secrets-id",
       "parameters": {
-        "format":"N"
+        "format": "N"
       }
     }
   }

@@ -1,22 +1,22 @@
 ﻿using System.Reflection;
+using Autofac;
+using MarketingBox.Template.Grpc;
+using MarketingBox.Template.Modules;
+using MarketingBox.Template.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Autofac;
 using MyJetWallet.Sdk.GrpcMetrics;
 using MyJetWallet.Sdk.GrpcSchema;
 using MyJetWallet.Sdk.Service;
 using Prometheus;
 using ProtoBuf.Grpc.Server;
-using Service.AssetsDictionary.Grpc;
-using Service.AssetsDictionary.Modules;
-using Service.AssetsDictionary.Services;
 using SimpleTrading.BaseMetrics;
 using SimpleTrading.ServiceStatusReporterConnector;
 
-namespace Service.AssetsDictionary
+namespace MarketingBox.Template
 {
     public class Startup
     {

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Service.AssetsDictionary.Domain.Models
+﻿namespace MarketingBox.Template.Domain.Models
 {
     public interface IHelloMessage
     {

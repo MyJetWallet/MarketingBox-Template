@@ -1,8 +1,6 @@
 ﻿using Autofac;
-using Autofac.Core;
-using Autofac.Core.Registration;
 
-namespace Service.AssetsDictionary.Modules
+namespace MarketingBox.Template.Modules
 {
     public class ServiceModule: Module
     {

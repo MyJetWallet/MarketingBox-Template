@@ -1,6 +1,6 @@
 ﻿using Autofac;
 
-namespace Service.AssetsDictionary.Modules
+namespace MarketingBox.Template.Modules
 {
     public class SettingsModule : Module
     {

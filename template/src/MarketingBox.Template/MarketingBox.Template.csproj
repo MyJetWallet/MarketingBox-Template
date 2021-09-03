@@ -24,8 +24,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Service.AssetsDictionary.Domain\Service.AssetsDictionary.Domain.csproj" />
-    <ProjectReference Include="..\Service.AssetsDictionary.Grpc\Service.AssetsDictionary.Grpc.csproj" />
+    <ProjectReference Include="..\MarketingBox.Template.Domain.Models\MarketingBox.Template.Domain.Models.csproj" />
+    <ProjectReference Include="..\MarketingBox.Template.Domain\MarketingBox.Template.Domain.csproj" />
+    <ProjectReference Include="..\MarketingBox.Template.Grpc\MarketingBox.Template.Grpc.csproj" />
   </ItemGroup>
 
   <ItemGroup>

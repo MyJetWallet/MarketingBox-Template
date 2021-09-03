@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
+using MarketingBox.Template.Client;
+using MarketingBox.Template.Grpc.Models;
 using ProtoBuf.Grpc.Client;
-using Service.AssetsDictionary.Client;
-using Service.AssetsDictionary.Grpc.Models;
 
 namespace TestApp
 {
@@ -16,7 +16,7 @@ namespace TestApp
             Console.ReadLine();
 
 
-            var factory = new AssetsDictionaryClientFactory("http://localhost:5001");
+            var factory = new TemplateClientFactory("http://localhost:5001");
             var client = factory.GetHelloService();
 
             var resp = await  client.SayHelloAsync(new HelloRequest(){Name = "Alex"});

@@ -1,7 +1,7 @@
-using System.Runtime.Serialization;
-using Service.AssetsDictionary.Domain.Models;
+﻿using System.Runtime.Serialization;
+using MarketingBox.Template.Domain.Models;
 
-namespace Service.AssetsDictionary.Grpc.Models
+namespace MarketingBox.Template.Grpc.Models
 {
     [DataContract]
     public class HelloMessage : IHelloMessage
