@@ -5,13 +5,13 @@ namespace MarketingBox.Template.Settings
 {
     public class SettingsModel
     {
-        [YamlProperty("AssetsDictionary.SeqServiceUrl")]
+        [YamlProperty("MarketingBox.Template.SeqServiceUrl")]
         public string SeqServiceUrl { get; set; }
 
-        [YamlProperty("AssetsDictionary.ZipkinUrl")]
+        [YamlProperty("MarketingBox.Template.ZipkinUrl")]
         public string ZipkinUrl { get; set; }
 
-        [YamlProperty("AssetsDictionary.ElkLogs")]
+        [YamlProperty("MarketingBox.Template.ElkLogs")]
         public LogElkSettings ElkLogs { get; set; }
     }
 }

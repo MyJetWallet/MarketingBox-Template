@@ -32,7 +32,7 @@ namespace MarketingBox.Template
 
         public static void Main(string[] args)
         {
-            Console.Title = "MyJetWallet Service.AssetsDictionary";
+            Console.Title = "MarketingBox.Template";
 
             Settings = SettingsReader.GetSettings<SettingsModel>(SettingsFileName);
 
