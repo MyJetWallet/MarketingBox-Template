@@ -17,6 +17,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MarketingBox.Template.Grpc\MarketingBox.Template.Grpc.csproj" />
+    <ProjectReference Include="..\MarketingBox.Template.Messages\MarketingBox.Template.Messages.csproj" />
+    <ProjectReference Include="..\MarketingBox.Template.MyNoSql\MarketingBox.Template.MyNoSql.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
